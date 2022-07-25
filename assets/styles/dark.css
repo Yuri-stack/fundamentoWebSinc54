@@ -43,3 +43,14 @@ body{
     font-weight: bold;
     cursor: pointer;
 }
+
+.dark-theme{
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+.dark-theme .btn{
+    border: 2px solid var(--light);
+    background-color: var(--dark);
+    color: var(--light);
+}

@@ -14,3 +14,16 @@ function enviar(){
     }
 }
 
+// Location
+
+let paragrafo = document.querySelector('#espaco')
+
+function getSpace(){
+    let local =  location.href
+    paragrafo.innerHTML = local
+}
+
+// Dark Theme
+function darkTheme(){
+    document.body.classList.toggle('dark-theme')
+}
